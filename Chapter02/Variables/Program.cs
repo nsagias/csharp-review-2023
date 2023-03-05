@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Xml;
+using System.Text;
 
 double heightInMeters = 1.88;
 Console.WriteLine($"The variable {nameof(heightInMeters)} has the number value {heightInMeters}");
@@ -79,4 +80,28 @@ Console.WriteLine(letterZ);
 
 bool declareTrue = true;
 Console.WriteLine(declareTrue);
+
+
+
+// Inferring the types
+
+// Console.WriteLine(bingo);
+var population2 = 100_000_000;
+Console.WriteLine(population2);
+
+var weight2 = 110;
+Console.WriteLine(weight2);
+
+var price2 = 4.99M;
+Console.WriteLine(price2);
+
+var fruit2 = "Apples";
+Console.WriteLine(fruit2);
+
+var letter2 = 'Z'; // single quote
+Console.WriteLine(letter2);
+
+var declareTrue2 = true;
+Console.WriteLine(declareTrue2);
+
 
