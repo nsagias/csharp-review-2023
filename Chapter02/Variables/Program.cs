@@ -58,3 +58,25 @@ string jsonExample = $$"""
     """;
 
 Console.WriteLine(jsonExample);
+
+// Specifc type of local variables
+int? bingo; // int? indicates poossibley null
+// Console.WriteLine(bingo);
+int population = 100_000_000;
+Console.WriteLine(population);
+
+double weight = 110;
+Console.WriteLine(weight);
+
+decimal price = 4.99M;
+Console.WriteLine(price);
+
+string fruit = "Apples";
+Console.WriteLine(fruit);
+
+char letterZ = 'Z'; // single quote
+Console.WriteLine(letterZ);
+
+bool declareTrue = true;
+Console.WriteLine(declareTrue);
+
