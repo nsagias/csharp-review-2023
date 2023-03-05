@@ -1,6 +1,7 @@
 ﻿using System.Xml;
 using System.Text;
 using Variables;
+using System;
 
 double heightInMeters = 1.88;
 Console.WriteLine($"The variable {nameof(heightInMeters)} has the number value {heightInMeters}");
@@ -130,8 +131,12 @@ nick.TodaysDate = new(2023, 03, 05);
 
 Console.WriteLine(nick.TodaysDate);
 
+List<Person> people = new()
+{
+    new() { FirstName = "Nick1", TodaysDate = DateTime.Today },
+    new() { FirstName = "Nick2", TodaysDate = DateTime.Today },
+    new() { FirstName = "Nick3", TodaysDate = DateTime.Today }
+}; 
 
-//class Person
-//{
-//    public DateTime TodaysDate;
-//}
+Console.WriteLine(people[0].FirstName);
+Console.WriteLine(people[0].TodaysDate);

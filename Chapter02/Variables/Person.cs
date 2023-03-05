@@ -3,7 +3,8 @@ namespace Variables
 {
 	public class Person
 	{
-        public DateTime TodaysDate;
+        public string? FirstName;
+        public DateTime? TodaysDate;
     }
 }
 
