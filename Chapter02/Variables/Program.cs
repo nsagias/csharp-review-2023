@@ -153,3 +153,32 @@ int number = 13;
 Console.WriteLine($"number has been set to: {number}");
 number = default;
 Console.WriteLine($"number has been reset to its default: {number}");
+
+
+// format strings
+// syntax: { index [, alignment ] [ : formatString ] }
+
+string apples = "apples";
+int applesCount = 1234;
+string bananas = "bananas";
+int bananasCount = 4567;
+
+// syntax: { index [, alignment ] [ : formatString ] }
+Console.WriteLine(
+    format: "{0,-10} {1,6}",
+    arg0: "Name",
+    arg1: "Count"
+);
+// syntax: { index [, alignment ] [ : formatString ] }
+Console.WriteLine(
+    format: "{0,-10} {1,6:N0}",
+    arg0: apples,
+    arg1: applesCount
+);
+
+// syntax: { index [, alignment ] [ : formatString ] }
+Console.WriteLine(
+      format: "{0,-10} {1,6:N0}",
+     arg0: bananas,
+     arg1: bananasCount
+);
