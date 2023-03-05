@@ -182,3 +182,7 @@ Console.WriteLine(
      arg0: bananas,
      arg1: bananasCount
 );
+
+Console.Write("Type your fist name and press ENTER/RETURN \n");
+string getFirstNameReadLine = Console.ReadLine();
+Console.WriteLine($"Hello {getFirstNameReadLine}");
