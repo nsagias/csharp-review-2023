@@ -184,5 +184,6 @@ Console.WriteLine(
 );
 
 Console.Write("Type your fist name and press ENTER/RETURN \n");
-string getFirstNameReadLine = Console.ReadLine();
-Console.WriteLine($"Hello {getFirstNameReadLine}");
+string? getFirstNameReadLine = Console.ReadLine()!;
+string? getNumberReadLine = Console.ReadLine()!;
+Console.WriteLine($"Hello {getNumberReadLine} and the number you picked is {getNumberReadLine}");
