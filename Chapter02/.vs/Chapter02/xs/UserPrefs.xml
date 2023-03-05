@@ -1,9 +1,32 @@
-﻿<Properties StartupConfiguration="{67C32FB2-DD30-4068-B0A1-2AE288FB8736}|Default">
+﻿<Properties StartupConfiguration="{3A8C4CED-DF5A-418E-A268-DB9D5E84008C}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Variables PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Arguments FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Arguments/Program.cs">
+    <Files>
+      <File FileName="Arguments/Program.cs" Line="3" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="Chapter02" expanded="True">
+            <Node name="Arguments" expanded="True" selected="True">
+              <Node name="obj" expanded="True">
+                <Node name="Debug" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Arguments PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Boolean PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Numbers PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Vocabulary PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
