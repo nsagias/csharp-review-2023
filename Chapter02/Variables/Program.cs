@@ -1,5 +1,6 @@
 ﻿using System.Xml;
 using System.Text;
+using Variables;
 
 double heightInMeters = 1.88;
 Console.WriteLine($"The variable {nameof(heightInMeters)} has the number value {heightInMeters}");
@@ -117,3 +118,20 @@ Console.WriteLine(file1);
 
 StreamWriter file2 = File.CreateText("something2.txt");
 Console.WriteLine(file2);
+
+// latest targetd-typed new to instantiate
+XmlDocument xml3 = new();
+Console.WriteLine(xml3);
+
+
+Person nick = new ();
+
+nick.TodaysDate = new(2023, 03, 05);
+
+Console.WriteLine(nick.TodaysDate);
+
+
+//class Person
+//{
+//    public DateTime TodaysDate;
+//}
