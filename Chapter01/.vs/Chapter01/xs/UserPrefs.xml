@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{D00B53AB-F6F2-4681-9D3A-1408468913D2}|Default">
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{D00B53AB-F6F2-4681-9D3A-1408468913D2}" ItemName="HelloCS" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.HelloCS PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.AboutMyEnvironment FirstBuild="True" />
 </Properties>
