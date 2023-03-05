@@ -187,3 +187,17 @@ Write("Type your fist name and press ENTER/RETURN \n");
 string? getFirstNameReadLine = ReadLine()!;
 string? getNumberReadLine = ReadLine()!;
 WriteLine($"Hello {getNumberReadLine} and the number you picked is {getNumberReadLine}");
+
+
+
+// ReadKey() example
+Write("Press any key combination: ");
+ConsoleKeyInfo key = ReadKey();
+
+WriteLine();
+
+WriteLine("Key: {0}, Char: {1}, Modifiers: {2}",
+    arg0: key.Key,
+    arg1: key.KeyChar,
+    arg2: key.Modifiers
+);
