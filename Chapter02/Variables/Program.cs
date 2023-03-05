@@ -105,3 +105,15 @@ var declareTrue2 = true;
 Console.WriteLine(declareTrue2);
 
 
+// Creating new type objects
+var xml1 = new XmlDocument();
+Console.WriteLine(xml1);
+
+// using inference as below cannot tell type of doucment
+//XmlDataDocument xml2 = new XmlDocument();
+
+var file1 = File.CreateText("something11.text");
+Console.WriteLine(file1);
+
+StreamWriter file2 = File.CreateText("something2.txt");
+Console.WriteLine(file2);
