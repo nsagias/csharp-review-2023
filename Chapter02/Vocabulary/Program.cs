@@ -1,4 +1,8 @@
 ﻿using System.Reflection;
+System.Data.DataSet ds;
+HttpClient client;
+
+
 Assembly? myApp = Assembly.GetEntryAssembly();
 
 foreach (AssemblyName name in myApp.GetReferencedAssemblies())
