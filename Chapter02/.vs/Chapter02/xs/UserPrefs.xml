@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{3A8C4CED-DF5A-418E-A268-DB9D5E84008C}|Default">
+  <MonoDevelop.Ide.ItemProperties.AsyncAwait FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Variables PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Arguments/Program.cs">

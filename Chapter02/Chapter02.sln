@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boolean", "Boolean\Boolean.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arguments", "Arguments\Arguments.csproj", "{3A8C4CED-DF5A-418E-A268-DB9D5E84008C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{368F138C-9BBD-426C-BB0E-6A7CEF4E3AA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3A8C4CED-DF5A-418E-A268-DB9D5E84008C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A8C4CED-DF5A-418E-A268-DB9D5E84008C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A8C4CED-DF5A-418E-A268-DB9D5E84008C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368F138C-9BBD-426C-BB0E-6A7CEF4E3AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368F138C-9BBD-426C-BB0E-6A7CEF4E3AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368F138C-9BBD-426C-BB0E-6A7CEF4E3AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368F138C-9BBD-426C-BB0E-6A7CEF4E3AA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
