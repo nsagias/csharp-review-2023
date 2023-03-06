@@ -19,9 +19,21 @@ WriteLine($"e / f = {e / f}");
 WriteLine($"e % f = {e % f}");
 
 
-
+// Double vs Whole numbers
 double g = 11.0;
 WriteLine($"g is {g:N1}, f is {f}"); // whole numbers
 WriteLine($"g / f = {g / f}"); // floating point
+
+
+// Assignment Operators
+int p = 6;
+p += 3;
+WriteLine(p);
+p -= 3;
+WriteLine(p);
+p *= 3;
+WriteLine(p);
+p /= 3;
+WriteLine(p);
 
 ReadKey();
