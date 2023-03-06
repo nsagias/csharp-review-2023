@@ -101,3 +101,31 @@ foreach (Animal? animal in animals)
     }
     WriteLine($"This is the message {message}");
 }
+
+// switch exporession
+foreach (Animal? animal in animals)
+{
+    // initialize varible
+    string? message = animal switch
+    {
+        Cat fourLeggedCat when fourLeggedCat.Legs == 4
+            => $"The cat named {fourLeggedCat.Name} has four legs.",
+
+        Cat wildCat when wildCat.IsDometic == false
+            => $"The cat named {wildCat.Name} is wild.",
+
+        Cat cat
+            => $"The cat is named {cat.Name}.",
+
+        Spider spider when spider.IsPoisonous
+            => $"The spider names {spider.Name} is poisoness",
+
+        null
+            => "This animal is null",
+
+        _
+            // default is always evaluated last
+            => $"The animal named {animal?.Name} is a {animal?.GetType().Name}."
+    };
+    WriteLine($"This is the message for switch expression {message}");
+}
