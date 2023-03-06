@@ -1,4 +1,6 @@
 ﻿<Properties StartupConfiguration="{ED35B509-EBFA-4DBB-976D-8595CA9FD140}|Default">
-  <MonoDevelop.Ide.ItemProperties.Operators FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Operators PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BooleanOperators FirstBuild="True" />
   <MultiItemStartupConfigurations />
 </Properties>
