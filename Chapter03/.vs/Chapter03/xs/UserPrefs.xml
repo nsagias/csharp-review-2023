@@ -1,6 +1,7 @@
-﻿<Properties StartupConfiguration="{ED35B509-EBFA-4DBB-976D-8595CA9FD140}|Default">
+﻿<Properties StartupConfiguration="{59ECDB15-E08E-46CD-A77A-6896E97E29BC}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Operators PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.BooleanOperators FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.SelectionStatements FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BooleanOperators PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
