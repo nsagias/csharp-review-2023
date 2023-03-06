@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanOperators", "Boolean
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionStatements", "SelectionStatements\SelectionStatements.csproj", "{DA8FE71E-F2B7-4F7D-A09E-4EA115C726A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationStatements", "IterationStatements\IterationStatements.csproj", "{07ECC48F-1C86-4AB2-B165-4FB0A8A41B6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DA8FE71E-F2B7-4F7D-A09E-4EA115C726A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8FE71E-F2B7-4F7D-A09E-4EA115C726A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8FE71E-F2B7-4F7D-A09E-4EA115C726A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07ECC48F-1C86-4AB2-B165-4FB0A8A41B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ECC48F-1C86-4AB2-B165-4FB0A8A41B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ECC48F-1C86-4AB2-B165-4FB0A8A41B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ECC48F-1C86-4AB2-B165-4FB0A8A41B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
