@@ -1,6 +1,6 @@
 ﻿WriteLine("Before parsing");
 Write("Enter a number: ");
-string? input = ReadLine();
+string? input = ReadLine()!;
 try
 {
     int? numInput = int.Parse(s: input);
@@ -20,3 +20,10 @@ catch (Exception error)
     WriteLine($"Exception Message: {error.Message}");
 }
 WriteLine("After parsing");
+
+
+WriteLine();
+WriteLine("---- Catching with filters");
+Write("Enter number: ");
+string numWithDecimal = ReadLine()!;
+if (string.IsNullOrEmpty(numWithDecimal)) return;  // handle null 
