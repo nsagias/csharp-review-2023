@@ -10,6 +10,10 @@ catch (FormatException)
 {
     WriteLine($"The number you enter is not valid example");
 }
+catch (OverflowException)
+{
+    WriteLine("Your number type does not fit the INT type, this is a OverflowException");
+}
 catch (Exception error)
 {
     WriteLine($"Exception Type: {error.GetType()}");
