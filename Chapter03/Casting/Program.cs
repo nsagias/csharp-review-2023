@@ -41,3 +41,31 @@ for (int index = 0; index < binaryObject.Length; index++)
 WriteLine();
 string encoded = ToBase64String(binaryObject);
 WriteLine($"Binary Object as Base64: {encoded}");
+
+
+// parsing
+WriteLine();
+WriteLine("---Parsing");
+
+int age = int.Parse("27");
+WriteLine(age);
+DateTime aDate = DateTime.Parse("1 January 2023");
+WriteLine(aDate); // 1/1/2023 12:00:00 AM
+WriteLine($"{ aDate:D}");  // Sunday, January 1, 2023
+
+
+// TryParse
+WriteLine();
+WriteLine("---TryParse");
+//int count1 = int.Parse("ABC");  //  System.FormatException: The input string 'ABC' was not in a correct format.
+
+WriteLine("Type a number");
+string? input = ReadLine();
+if (int.TryParse(input, out int count))
+{
+    WriteLine($"The number is {count}");
+}
+else
+{
+    WriteLine("Could not parse input");
+}
