@@ -34,10 +34,38 @@ string[,] grid1 = new[,] {
 
 
 // loop through multi-dimensional array
-for (int row = 0; row <= grid1.GetUpperBound(0); row++)
+//for (int row = 0; row <= grid1.GetUpperBound(0); row++)
+//{
+//    for (int col = 0; col <= grid1.GetUpperBound(1); col++)
+//    {
+//        WriteLine($"Row {row}, Column {col}: {grid1[row, col]}");
+//    }
+//}
+
+
+// jagged multi-dimensional array
+string[][] jagged = new[]
 {
-    for (int col = 0; col <= grid1.GetUpperBound(1); col++)
+  new[] { "Alpha", "Beta", "Gamma" },
+  new[] { "Anne", "Ben", "Charlie", "Doug" },
+  new[] { "Aardvark", "Bear" }
+};
+
+// find upperbound
+//WriteLine("Upper bound of array of arrays is: {0}",
+//  jagged.GetUpperBound(0));
+//for (int array = 0; array <= jagged.GetUpperBound(0); array++)
+//{
+//    WriteLine("Upper bound of array {0} is: {1}",
+//      arg0: array,
+//      arg1: jagged[array].GetUpperBound(0));
+//}
+
+for (int row = 0; row <= jagged.GetUpperBound(0); row++)
+{
+    for (int col = 0; col <= jagged[row].GetUpperBound(0); col++)
     {
-        WriteLine($"Row {row}, Column {col}: {grid1[row, col]}");
+        WriteLine($"Row {row}, Column {col}: {jagged[row][col]}");
     }
+
 }
