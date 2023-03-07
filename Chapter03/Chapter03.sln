@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationStatements", "Iter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{098C2519-719C-430D-B41E-FCBD1B07A2D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{7633070C-8D7C-43C6-A666-BB8FA282E6D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{098C2519-719C-430D-B41E-FCBD1B07A2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{098C2519-719C-430D-B41E-FCBD1B07A2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{098C2519-719C-430D-B41E-FCBD1B07A2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7633070C-8D7C-43C6-A666-BB8FA282E6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7633070C-8D7C-43C6-A666-BB8FA282E6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7633070C-8D7C-43C6-A666-BB8FA282E6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7633070C-8D7C-43C6-A666-BB8FA282E6D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
