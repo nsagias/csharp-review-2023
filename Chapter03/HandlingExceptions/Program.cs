@@ -27,3 +27,17 @@ WriteLine("---- Catching with filters");
 Write("Enter number: ");
 string numWithDecimal = ReadLine()!;
 if (string.IsNullOrEmpty(numWithDecimal)) return;  // handle null 
+
+try
+{
+    decimal parsedNumWtihDecimal = decimal.Parse(numWithDecimal);
+    WriteLine($"Decimal number formated as currency: {parsedNumWtihDecimal:C}");
+}
+catch (FormatException) when (numWithDecimal.Contains("$"))
+{
+    WriteLine("Number provided has a dollar sign");
+}
+catch (FormatException)
+{
+    WriteLine("Number must only contain digits");
+}
