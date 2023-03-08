@@ -97,7 +97,10 @@
         }
         else
         {
-            return number * Factorial(number - 1);
+            checked
+            {
+                return number * Factorial(number - 1);
+            }
         }
     }
 
