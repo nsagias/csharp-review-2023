@@ -164,4 +164,19 @@
         }
     }
 
+    static int FibFunctional(int num) => num switch
+    {
+        1 => 0,
+        2 => 1,
+        _ => FibFunctional(num - 1) + FibFunctional(num - 2)
+    };
+
+    static void RunFibFunctional()
+    {
+        for (int i = 1; i <= 30; i++)
+        {
+            WriteLine($"The {CardinalToOrdinal(i)} term of the Fibonacci sequence is {FibFunctional(num: i):N0}. functional");
+        }
+    }
+
 }
