@@ -83,4 +83,30 @@
         }
     }
 
+    static int Factorial(int number)
+    {
+        if (number < 0)
+        {
+            throw new ArgumentException(message:
+              $"Non-negative integers for factiorial: {number}",
+              paramName: nameof(number));
+        }
+        else if (number == 0)
+        {
+            return 1;
+        }
+        else
+        {
+            return number * Factorial(number - 1);
+        }
+    }
+
+    static void RunFactorial(int num = 15)
+    {
+        for (int i = 1; i <= num; i++)
+        {
+            WriteLine($"{i}! = {Factorial(i):N0}");
+        }
+    }
+
 }
