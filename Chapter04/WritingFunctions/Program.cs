@@ -6,4 +6,6 @@
 
 //ProcessCardinalToOrdinal(100);
 
-RunFactorial();
+//RunFactorial();
+
+RunFibImperative();

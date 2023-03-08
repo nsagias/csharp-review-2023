@@ -1,5 +1,10 @@
 ﻿partial class Program
 {
+    /// <summary>
+    /// Prints time table for one number and its range
+    /// </summary>
+    /// <param name="number"></param>
+    /// <param name="size"></param>
     static void TimeTable(byte number, byte size = 12)
     {
         WriteLine($"This is the {number} times-table with {size} rows: ");
@@ -10,6 +15,12 @@
         WriteLine();
     }
 
+    /// <summary>
+    /// Calculate take based on country code
+    /// </summary>
+    /// <param name="amount"></param>
+    /// <param name="twoLetterRegionCode"></param>
+    /// <returns>total tax for amount provided</returns>
     static decimal CalculateTax(decimal amount, string twoLetterRegionCode)
     {
         // declare variable
@@ -120,6 +131,36 @@
             {
                 WriteLine($"{i}! Factorials create is {ex.GetType()} and message is {ex.Message}");
             }
+        }
+    }
+
+    static int FibImperative(int num)
+    {
+        if (num == 1)
+        {
+            return 0;
+        }
+        else if (num == 2)
+        {
+            return 1;
+        }
+        else
+        {
+            return FibImperative(num - 1) + FibImperative(num - 2);
+        }
+    }
+
+    static void RunFibImperative()
+    {
+        //for (int i = 1; i <= 30; i++)
+        //{
+        //    WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
+        //      arg0: CardinalToOrdinal(i),
+        //      arg1: FibImperative(num: i));
+        //}
+        for (int i = 1; i <= 30; i++)
+        {
+            WriteLine($"The {CardinalToOrdinal(i)} term of the Fibonacci sequence is {FibImperative(num: i):N0}.");
         }
     }
 
