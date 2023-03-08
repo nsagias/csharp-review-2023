@@ -106,9 +106,20 @@
 
     static void RunFactorial(int num = 15)
     {
-        for (int i = 1; i <= num; i++)
+        for (int i = -2; i <= num; i++)
         {
-            WriteLine($"{i}! = {Factorial(i):N0}");
+            try
+            {
+                WriteLine($"{i}! = {Factorial(i):N0}");
+            }
+            catch (OverflowException)
+            {
+                WriteLine($"{i}! is larger than a 32 bit integer ");
+            }
+            catch (Exception ex)
+            {
+                WriteLine($"{i}! Factorials create is {ex.GetType()} and message is {ex.Message}");
+            }
         }
     }
 
