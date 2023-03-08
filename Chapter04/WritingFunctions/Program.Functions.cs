@@ -70,7 +70,8 @@
                     3 => "rd",
                     _ => "th"
                 };
-                return $"{number:N)}{suffix}";
+
+                return $"{number:N0}{suffix}";
         }
     }
 
