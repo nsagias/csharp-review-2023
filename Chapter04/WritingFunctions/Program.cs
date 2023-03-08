@@ -1,0 +1,1 @@
+﻿TimeTable(number: 8, size: 10);
