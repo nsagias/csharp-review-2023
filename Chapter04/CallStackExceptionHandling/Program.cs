@@ -10,5 +10,14 @@ void Alpha()
 void Beta()
 {
     WriteLine("In BETA");
-    Calculator.Gamma();
+    try
+    {
+        Calculator.Gamma();
+
+    }
+    catch (Exception ex)
+    {
+        WriteLine($"Exceptioon: {ex.Message}");
+        throw;
+    }
 }
