@@ -14,4 +14,15 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <!--<Using Include ="System.Console" Static="true" />-->
   </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\net7.0\appsettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\net7.0\" />
+  </ItemGroup>
 </Project>
