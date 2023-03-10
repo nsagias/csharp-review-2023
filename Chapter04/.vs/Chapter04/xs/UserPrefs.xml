@@ -1,24 +1,34 @@
-﻿<Properties StartupConfiguration="{93B56A7A-980F-4B05-AF14-255474E8B1CB}|Default">
+﻿<Properties StartupConfiguration="{AAA21F96-7A1B-4DE7-B37D-B15CDD61D55F}|Default">
+  <MonoDevelop.Ide.ItemProperties.CalculatorLib FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WritingFunctions PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Instrumenting/Program.cs">
     <Files>
-      <File FileName="Instrumenting/Program.cs" Line="14" Column="26" />
+      <File FileName="Instrumenting/Program.cs" Line="26" Column="27" />
+      <File FileName="Instrumenting/appsettings.json" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="Chapter04" expanded="True">
-            <Node name="Instrumenting" expanded="True" />
+            <Node name="Instrumenting" expanded="True">
+              <Node name="bin" expanded="True">
+                <Node name="Debug" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Instrumenting PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WritingFunctions PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
