@@ -1,10 +1,29 @@
 ﻿namespace CalculatorLibUnitTests;
 
-public class UnitTest1
+public class CalculatorUnitTests
 {
     [Fact]
-    public void Test1()
+    public void TestAdding2and2()
     {
+        // arrange
+        // act
+        // assert
 
+    }
+
+    [Fact]
+    public void TestAdding2and3()
+    {
+        // arrange
+        // act
+        // assert
+    }
+
+    [Fact]
+    public void TestAdding2and4Fails ()
+    {
+        // arrange
+        // act
+        // assert
     }
 }
