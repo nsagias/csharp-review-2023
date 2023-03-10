@@ -1,5 +1,4 @@
 ﻿<Properties StartupConfiguration="{AAA21F96-7A1B-4DE7-B37D-B15CDD61D55F}|Default">
-  <MonoDevelop.Ide.ItemProperties.CalculatorLib FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WritingFunctions PreferredExecutionTarget="MonoDevelop.Default" />
@@ -31,4 +30,5 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CalculatorLibUnitTests FirstBuild="True" />
 </Properties>
