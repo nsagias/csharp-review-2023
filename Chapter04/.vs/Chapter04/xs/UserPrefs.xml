@@ -1,4 +1,6 @@
-﻿<Properties StartupConfiguration="{AAA21F96-7A1B-4DE7-B37D-B15CDD61D55F}|Default">
+﻿<Properties StartupConfiguration="{93B56A7A-980F-4B05-AF14-255474E8B1CB}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WritingFunctions FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.WritingFunctions PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Instrumenting PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
